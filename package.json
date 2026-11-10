@@ -1,0 +1,10 @@
+{
+  "name": "atmos-weather",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ATMOS — CRED-inspired weather dashboard with Vercel serverless weather API",
+  "scripts": {
+    "vercel-build": "echo 'ATMOS static build ok'",
+    "build": "echo 'ATMOS static build ok'"
+  }
+}
