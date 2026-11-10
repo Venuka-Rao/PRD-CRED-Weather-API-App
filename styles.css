@@ -35,6 +35,11 @@ body {
   padding: 0;
 }
 
+/* The [hidden] attribute must always win over display rules set by classes. */
+[hidden] {
+  display: none !important;
+}
+
 body {
   background: var(--bg);
   color: var(--text);
